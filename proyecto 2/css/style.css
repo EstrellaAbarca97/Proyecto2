@@ -1,0 +1,105 @@
+body {
+    background-color: #ecd6c0;
+}
+
+/* Estilo personalizado para hacer el texto más grande */
+h1 {
+    font-size: 80px; /* Tamaño de fuente deseado (por ejemplo, 36px) */
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+ /* Estilo personalizado para el encabezado con imagen de fondo */
+ .header {
+    background-image: url('https://img.freepik.com/vector-gratis/fondo-abstracto-pintado-mano-acuarela_23-2149112340.jpg?w=740&t=st=1694556501~exp=1694557101~hmac=2eb1c2aaa3e264c688c30668a06f3f51a69a1de246bd0f16b6bf71ef2bb5c402');
+    background-size: cover; /* Ajusta la imagen al tamaño del contenedor */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    background-position: center center; /* Centra la imagen en el contenedor */
+    color: white; /* Color de texto en el encabezado */
+    padding: 50px; /* Espaciado interno para el contenido del encabezado */
+}
+.custom-button-list li {
+    margin-bottom: 10px;
+}
+h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+/* Estilo para los elementos H3 con subrayado verde */
+h3{
+  border-bottom: 2px solid #a68069;
+  display: inline-block;
+}
+h4{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #8B4513;
+}
+h5{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #8B4513;
+    text-align: center;
+    font-size: 40px;
+}
+/* Clase de CSS personalizada para fondo color #d8af97 */
+.bg-mi-color {
+    background-color: #d8af97;
+}
+.bg-mi-color2 {
+    background-color: #bf9780;
+}
+.bg-mi-color3 {
+    background-color: #d8af97;
+}
+.bg-mi-color4 {
+    background-color: #d8af97;
+}
+.bg-mi-color5 {
+    background-color: #bf9780;
+}
+.bg-mi-color6 {
+    background-color: #bf9780;
+}
+/*estilo de los enlaces*/
+ul li a{
+    height: 50px; /*Altura*/
+    background-color:#bf9780; /*Color del fondo*/
+    display: block;
+    border-left: 10px solid #bf9780;
+    border-right: 5px solid #bf9780;
+    padding-left: 15px; /*Separación izquierda del texto*/
+    text-decoration: none;
+    color: black
+}
+ul li a:hover{
+    margin-left: 10px; /*Separación de lado izquierdo*/
+    color: black; /*Color de la letra*/
+    background-color: #bf9780; /*Color de fondo*/
+    box-shadow: 10px 10px 20px #00000077; /*sombra*/
+    transform: rotate(4deg); /*movimiento de rotacion*/
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+
+td {
+    vertical-align: top;
+ }
+
+ a {
+    text-decoration: none;
+    color: rgb(73, 20, 221);
+ }
+ 
+ .container {
+    text-align: justify;
+ }
+ /*estilo boton*/
+ .btn-back-to-top {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    background-color: #a68069; /* Cambia el color de fondo a verde */
+    color: white; /* Cambia el color del texto a blanco */
+    border-color: #a68069; /* Cambia el color del borde a verde */
+}
